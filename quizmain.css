@@ -1,0 +1,43 @@
+* { 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: grey;
+
+}
+
+.banner{ 
+    width: 100%;
+    margin: 0px;
+}
+
+.title{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.questionBox{
+    border: 2px black solid;
+    margin: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+button{
+    background-color: orange;
+    border: black solid 3px;
+}
+
+.animalpic{
+    width: 15rem;
+    height: 12rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
