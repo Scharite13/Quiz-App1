@@ -9,22 +9,36 @@
         <title>Game Species Quiz</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <link rel="stylesheet" type="text/css" href="quizmain.css">
     </head>
     <body>
-        <header>
-            <img class="banner" src="https://images-na.ssl-images-amazon.com/images/I/6117dzY%2BkPL._SX425_.jpg">
-            <h1 class="title">Game Species Quiz</h1>
-        </header>
         <main>
-            <section class="questionBox" >
-                <p>This Quiz will test your knowledge
-                North American game species.
-                </p>
-                <button>Start Quiz</button>
-            </section>
+            <header>
+            
+                <img class="banner" src="https://images-na.ssl-images-amazon.com/images/I/6117dzY%2BkPL._SX425_.jpg">
+                <h1 class="title">Game Species Quiz</h1>
+                <ul>
+                    <li class="tracker">Question:<span class="questionNumber">0</span>/5</li>
+                    <li class="tracker">Score:<span class="score">0</span>/5</li>
+                 </ul>
+            </header>
+             <section role="region" class="contentBox"> 
+                <section class="startBox">
+                    <p>This Quiz will test your knowledge of
+                    North American game species.
+                    </p>
+                    <button type="button" class="js-startButton startButton">Start Quiz</button>
+                </section>
+                <section class="questionBox altBox"></section>
+                <section class="responseBox altBox"></section>
+                <section class="finalBox altBox"></section>
+            </section>    
         </main>
         
-        <script src="" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
